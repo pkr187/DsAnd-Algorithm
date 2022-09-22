@@ -1,0 +1,15 @@
+C:\DsAndAlgorithm\DsAndAlgorithm\bin\Debug\net6.0\DsAndAlgorithm.exe
+C:\DsAndAlgorithm\DsAndAlgorithm\bin\Debug\net6.0\DsAndAlgorithm.deps.json
+C:\DsAndAlgorithm\DsAndAlgorithm\bin\Debug\net6.0\DsAndAlgorithm.runtimeconfig.json
+C:\DsAndAlgorithm\DsAndAlgorithm\bin\Debug\net6.0\DsAndAlgorithm.dll
+C:\DsAndAlgorithm\DsAndAlgorithm\bin\Debug\net6.0\DsAndAlgorithm.pdb
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.csproj.AssemblyReference.cache
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.AssemblyInfoInputs.cache
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.AssemblyInfo.cs
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.csproj.CoreCompileInputs.cache
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.dll
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\refint\DsAndAlgorithm.dll
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.pdb
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\DsAndAlgorithm.genruntimeconfig.cache
+C:\DsAndAlgorithm\DsAndAlgorithm\obj\Debug\net6.0\ref\DsAndAlgorithm.dll
