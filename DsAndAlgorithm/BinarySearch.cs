@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace DsAndAlgorithm
 {
-    internal class BinarySearch
-    {
-        public void Search(string filePath)
+        public class BinarySearch
         {
-            string data = File.ReadAllText(filePath);
-            string[] words = data.Split(",");
-            Console.WriteLine(" Enter word to search");
-            string search = Console.ReadLine();
-            foreach (var word in words)
+            public void Search(string filePath)
             {
-                if (search.ToLower().Equals(word.ToLower()))
+                string data = File.ReadAllText(filePath);
+                string[] words = data.Split(",");
+                Console.WriteLine(" Enter word to search");
+                string search = Console.ReadLine();
+                foreach (var word in words)
                 {
-                    Console.WriteLine("word found");
-                    return;
+                    if (search.ToLower().Equals(word.ToLower()))
+                    {
+                        Console.WriteLine("word found");
+                        return;
+                    }
                 }
+                Console.WriteLine("word not found");
             }
-            Console.WriteLine("word not found");
         }
-    }
-}
     
+}
 
