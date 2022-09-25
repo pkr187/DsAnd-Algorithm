@@ -7,13 +7,13 @@
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Select Programs \n2.Binary search \n3.Insertion sort \n4.Bubble sort  \n5.Merge Sort \n6.Check string is Anagram \n7.Print prime number \n");
+                Console.WriteLine("Select Programs \n2.Binary search \n3.Insertion sort \n4.Bubble sort  \n5.Merge Sort \n6.Check string is Anagram \n7.Print prime number \n8. Check Prime number is Anagram and Palindrome");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
                     case 2:
                         BinarySearch binarysearch = new BinarySearch();
-                        binarysearch.Search(@"C:\Users\Lenovo\Desktop\Bridgelabz\DsAndAlgorithm\DsAndAlgorithm\Word.txt");
+                        binarysearch.Search(@"C:\Users\accer\Desktop\Bridgelabz\DsAndAlgorithm\DsAndAlgorithm\Word.txt");
                         break;
                     case 3:
                         InsertionSort insertionsort = new InsertionSort();
@@ -21,7 +21,7 @@
                         break;
                     case 4:
                         BubbleSort bubblesort = new BubbleSort();
-                        bubblesort.Sort(@"C:\Users\Lenovo\Desktop\Bridgelabz\DsAndAlgorithm\DsAndAlgorithm\Word.txt");
+                        bubblesort.Sort(@"C:\Users\accer\Desktop\Bridgelabz\DsAndAlgorithm\DsAndAlgorithm\Word.txt");
                         break;
                     case 5:
                         MergeSort mergeSort = new MergeSort();
@@ -49,6 +49,13 @@
                         PrimeNumber primeNumber = new PrimeNumber();
                         primeNumber.Prime();
                         break;
+                    case 8:
+                        Palindrome palindrome = new Palindrome();
+                        palindrome.Anagram();
+                        palindrome.PrimeNumber();
+                        palindrome.PalindromeNum();
+                        break;
+
                 }
             }
         }
