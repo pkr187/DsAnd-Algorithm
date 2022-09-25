@@ -6,36 +6,36 @@ using System.Threading.Tasks;
 
 namespace DsAndAlgorithm
 {
-        public class InsertionSort
+    internal class InsertionSort
+    {
+        public void Insertion()
         {
-            public void Insertion()
+            Console.WriteLine("enter size of array:");
+            int size = Convert.ToInt32(Console.ReadLine());
+            string[] array = new string[size];
+            Console.WriteLine("enter string elements of array:");
+            for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("enter size of array:");
-                int size = Convert.ToInt32(Console.ReadLine());
-                string[] array = new string[size];
-                Console.WriteLine("enter string elements of array:");
-                for (int i = 0; i < size; i++)
+                array[i] = Console.ReadLine();
+            }
+            for (int i = 1; i < array.Length; i++)
+            {
+                string key = array[i];
+                int j = i - 1;
+                while ((j >= 0) && (array[j].CompareTo(key) > 0))
                 {
-                    array[i] = Console.ReadLine();
+                    array[j + 1] = array[j];
+                    j = j - 1;
                 }
-                for (int i = 1; i < array.Length; i++)
-                {
-                    string key = array[i];
-                    int j = i - 1;
-                    while ((j >= 0) && (array[j].CompareTo(key) > 0))
-                    {
-                        array[j + 1] = array[j];
-                        j = j - 1;
-                    }
-                    array[j + 1] = key;
-                }
+                array[j + 1] = key;
+            }
 
-                for (int i = 0; i < array.Length; i++)
-                {
-                    Console.Write(array[i] + " ");
-                }
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + " ");
             }
         }
-    
+    }
 }
+    
 

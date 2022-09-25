@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DsAndAlgorithm
 {
-    internal class Anagram
+    public class Anagram
     {
         public void AnagramWord(string firstInput, string lastInput)
         {
